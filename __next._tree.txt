@@ -1,4 +1,4 @@
-:HL["/_next/static/chunks/1e_6gdkh5hd5v.css","style"]
-:HL["/_next/static/chunks/2n1qf_7pfq_dc.css","style"]
+:HL["/spinortech_new/_next/static/chunks/1e_6gdkh5hd5v.css","style"]
+:HL["/spinortech_new/_next/static/chunks/2n1qf_7pfq_dc.css","style"]
 1:[["children",{"s":"__PAGE__","h":160}]]
-0:{"b":"wQoaBzFvA-ydmo8AiD9cf","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"50fyiizYLTMl9IjG0n4Wc","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
