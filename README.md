@@ -1,1 +1,0 @@
-# spinortech_new
