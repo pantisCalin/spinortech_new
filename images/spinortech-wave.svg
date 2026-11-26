@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 650" fill="none">
+<defs>
+ <linearGradient id="rear" x1=".15" y1=".8" x2=".85" y2=".1"><stop stop-color="#f8f7fc"/><stop offset=".45" stop-color="#e4dff1"/><stop offset="1" stop-color="#a69bc8"/></linearGradient>
+ <linearGradient id="middle" x1=".2" y1=".8" x2=".8" y2=".1"><stop stop-color="#f8f7fc"/><stop offset=".5" stop-color="#cfc5e4"/><stop offset="1" stop-color="#77639e"/></linearGradient>
+ <linearGradient id="main" x1=".12" y1=".85" x2=".78" y2=".18"><stop stop-color="#e8e1f2"/><stop offset=".3" stop-color="#d8cde9"/><stop offset=".55" stop-color="#a99acb"/><stop offset=".78" stop-color="#68518f"/><stop offset="1" stop-color="#240060"/></linearGradient>
+ <linearGradient id="face" x1=".15" y1=".9" x2=".85" y2=".1"><stop stop-color="#f3eff9"/><stop offset=".35" stop-color="#d5cce9"/><stop offset=".7" stop-color="#b1a3d1"/><stop offset="1" stop-color="#7965a3"/></linearGradient>
+ <linearGradient id="redEdge"><stop stop-color="#db123c" stop-opacity="0"/><stop offset=".3" stop-color="#db123c" stop-opacity=".6"/><stop offset=".57" stop-color="#db123c"/><stop offset=".78" stop-color="#db123c"/><stop offset="1" stop-color="#240060"/></linearGradient>
+ <radialGradient id="gloss" cx=".48" cy=".08" r=".65"><stop stop-color="white" stop-opacity=".5"/><stop offset="1" stop-color="white" stop-opacity="0"/></radialGradient>
+ <linearGradient id="rim"><stop stop-color="white" stop-opacity=".1"/><stop offset=".55" stop-color="white" stop-opacity=".95"/><stop offset="1" stop-color="white" stop-opacity=".15"/></linearGradient>
+</defs>
+<g id="rear-surface"><path d="M245 650C525 321 828 58 1100 22V650Z" fill="url(#rear)"/></g>
+<g id="middle-surface"><path d="M130 650C435 300 755 100 1100 300V650Z" fill="url(#middle)"/><path d="M130 650C435 300 755 100 1100 300" stroke="url(#rim)" stroke-width="1.5"/></g>
+<g id="main-surface"><path d="M0 650C240 325 480 145 700 190C865 223 1010 370 1100 510V650Z" fill="url(#main)"/><path d="M0 650C240 325 480 145 700 190C865 223 1010 370 1100 510V650Z" fill="url(#gloss)"/><path d="M0 650C240 325 480 145 700 190C865 223 1010 370 1100 510" stroke="url(#redEdge)" stroke-width="4"/><path d="M4 650C244 329 480 150 700 195C865 228 1010 375 1100 515" stroke="url(#rim)" stroke-width="1.4"/></g>
+<g id="front-surface"><path d="M218 650C445 440 680 305 845 278C955 345 1040 435 1100 510V650Z" fill="url(#face)"/><path d="M218 650C445 440 680 305 845 278" stroke="url(#rim)" stroke-width="2"/></g>
+<g id="fine-reflection"><path d="M240 650C470 448 695 320 856 286" stroke="#fff" stroke-opacity=".22" stroke-width="1"/></g>
+</svg>
